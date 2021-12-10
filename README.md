@@ -1,7 +1,7 @@
 # CaseReport
 病例报告分析，显示中的病例都是纸质打印或者手写的，需要医生手动输入到系统中，工作量很大。该项目通过调用百度ocr api接口，上传图片识别里边的文字，返回后进行格式整理为表格。  
 
-[php版本](https://github.com/zzmshinnosuke/CaseReport-php) 属于半成品，方法类似  
+[php版本](https://github.com/zzmshinnosuke/CaseReport/tree/php) 属于半成品，方法类似  
 
 # Environments
 win8.1（vmware）  
