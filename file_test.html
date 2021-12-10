@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Document</title>
+</head>
+<body>
+<form action="file.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="upfile" multiple="multiple">
+    <!--input type="file" multiple="multiple" id="test">
+    <ul id='content'></ul-->
+    <input type="submit" value="提交">
+</form>
+<br>
+
+<script src="filename.php"></script><br />
+
+<a href="demo.php">
+    <button>导出excel</button>
+</a>
+</body>
+<!--script>
+    var test = document.getElementById('test');
+    test.addEventListener('change', function() {
+        var t_files = this.files;
+        console.log(t_files);
+        var str = '';
+        for (var i = 0, len = t_files.length; i < len; i++) {
+            console.log(t_files[i]);
+            str += '<li>名称：' + t_files[i].name + '</li>';
+        };
+        document.getElementById('content').innerHTML = str;
+    }, false);
+</script-->
+</body>
+</html>
